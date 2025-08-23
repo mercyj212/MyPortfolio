@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer base;
+@layer components;
+@layer utilities;
+
+@layer utilities {
+    .font-cinzel {
+        font-family: 'Cinzel Decorative', cursive;
+    }
+}
