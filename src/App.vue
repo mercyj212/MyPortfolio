@@ -10,18 +10,12 @@
   <Projects class="animate-section" />
 
   <!-- About -->
-  <section id="about" class="min-h-screen bg-pink-950 animate-section" >
-     <div>
-      <h1>About Us</h1>
-    </div>
-  </section>
+   <About class="animate-section"/>
+ 
 
   <!-- Contact -->
-  <section id="contact" class="min-h-screen bg-black animate-section">
-      <div>
-        <h1>Contact us</h1>
-      </div>
-  </section>
+   <Contact class="animate-section"/>
+  
 </template>
 
 
@@ -29,6 +23,8 @@
   import Hero from './components/Hero.vue';
   import Navbar from './components/Navbar.vue'
   import Projects from './components/Projects.vue';
+  import About from './components/About.vue';
+  import Contact from './components/Contact.vue';
 
 
     import { onMounted } from 'vue';
