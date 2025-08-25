@@ -7,16 +7,15 @@
                     <div data-aos="fade-right" data-aos-duration="800" class="flex items-center space-x-4">
                         <div  data-aos-duration="800" class="bg-white/10 px-4 py-2 rounded-md shadow"><ion-icon name="mail-outline"></ion-icon></div>
                         <div>
-                            <p>MAIL ME</p>
+                            <p class="text-white/25">Mail me</p>
                             <p>mercy@gmail.com</p>
-                            <p></p>
                         </div>
                     </div>
                    
                     <div  data-aos="fade-right" data-aos-duration="700"class="flex items-center space-x-4">
                         <div class="bg-white/10 px-4 py-2 rounded-md shadow"><ion-icon name="call-outline"></ion-icon></div>
                         <div>
-                            <p>CALL ME</p>
+                            <p class="text-white/25">Call me</p>
                             <p>+234-802-532-7839</p>
                             
                         </div>
@@ -25,7 +24,7 @@
                     <div data-aos="fade-right" data-aos-duration="600" class="flex items-center space-x-4">
                         <div class="bg-white/10 px-4 py-2 rounded-md shadow"><ion-icon name="location-outline"></ion-icon></div>
                         <div>
-                            <p>LOCATION</p>
+                            <p class="text-white/25">Location</p>
                             <p>Lagos, Nigeria.</p>
                             
                         </div>
