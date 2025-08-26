@@ -1,7 +1,7 @@
 <template>
     <section id="projects"
         ref="projectSection"
-        class="min-h-screen flex flex-col items-center justify-center px-4 md:px-8 pt-24"
+        class="min-h-screen flex flex-col items-center justify-center px-4 md:px-8 pt-24 bg-white"
     >
         <div
             data-aos="fade-up"
@@ -9,7 +9,7 @@
             class="w-full max-w-7xl min-h-[460px] md:min-h-[560px] rounded-3xl shadow-2xl backdrop-blur-md bg-black border border-black text-white pt-16"
         >
             <h1
-                class="text-5xl md:text-6xl font-bold mt-8 md:mt-16 mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400"
+                class="text-5xl md:text-6xl font-bold mt-8 md:mt-16 mb-8 text-center bg-clip-text text-transparent bg-white"
                 data-aos="zoom-in"
                 data-aos-duration="800"
             >
@@ -43,11 +43,11 @@
                             :href="project.link"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="text-blue-400 underline text-sm hover:text-blue-300 transition-colors duration-200"
+                            class="text-white/45  text-sm hover:text-white transition-colors duration-200 bg-white/20 px-4 py-2 rounded-md"
                             @click="handleLinkClick(project.link)"
                             :aria-label="`View ${project.name} project`"
                         >
-                            View {{ project.name }}
+                            View
                         </a>
                         <span v-else class="text-gray-400 text-sm">
                             Project link unavailable

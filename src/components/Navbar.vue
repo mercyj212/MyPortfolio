@@ -1,5 +1,5 @@
 <template>
-    <nav id="navbar" class="flex justify-between items-center p-2  fixed top-0 left-0 w-full z-50 bg-gradient-to-b from-black/70 to-transparent backdrop-blur-md ">
+    <nav id="navbar"  class="flex justify-between items-center p-2  fixed top-0 left-0 w-full z-50 bg-gradient-to-b from-black/70 to-transparent backdrop-blur-md ">
         <!-- Logo -->
         <div class="flex flex-col items-center ml-4 text-3xl ">
             <ion-icon name="diamond-outline" ></ion-icon>
@@ -16,5 +16,5 @@
 </template>
 
 <script>
-
+    
 </script>
